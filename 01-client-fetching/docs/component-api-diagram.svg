@@ -1,0 +1,146 @@
+<svg viewBox="0 0 1180 930" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif" style="max-width:100%;height:auto;background:#ffffff">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555555" />
+    </marker>
+  </defs>
+
+  <!-- ================= LEFT: /  Dashboard route ================= -->
+  <text x="20" y="48" font-size="15" font-weight="700" fill="#333">/ — Dashboard</text>
+  <rect x="20" y="60" width="300" height="735" rx="10" fill="#FFFDE7" stroke="#C9C36A" stroke-width="1.5" stroke-dasharray="6,4" />
+
+  <rect x="40" y="85"  width="260" height="50" rx="6" fill="#ECECFF" stroke="#8C7AE6" stroke-width="1.5" />
+  <text x="170" y="115" text-anchor="middle" font-size="14" fill="#222">KpiCards</text>
+
+  <rect x="40" y="175" width="260" height="50" rx="6" fill="#ECECFF" stroke="#8C7AE6" stroke-width="1.5" />
+  <text x="170" y="205" text-anchor="middle" font-size="14" fill="#222">RevenueChart</text>
+
+  <rect x="40" y="265" width="260" height="50" rx="6" fill="#ECECFF" stroke="#8C7AE6" stroke-width="1.5" />
+  <text x="170" y="295" text-anchor="middle" font-size="14" fill="#222">ExpenseBreakdown</text>
+
+  <rect x="40" y="355" width="260" height="50" rx="6" fill="#ECECFF" stroke="#8C7AE6" stroke-width="1.5" />
+  <text x="170" y="385" text-anchor="middle" font-size="14" fill="#222">RecentTransactions</text>
+
+  <rect x="40" y="445" width="260" height="50" rx="6" fill="#ECECFF" stroke="#8C7AE6" stroke-width="1.5" />
+  <text x="170" y="475" text-anchor="middle" font-size="14" fill="#222">OutstandingInvoices</text>
+
+  <rect x="40" y="535" width="260" height="230" rx="6" fill="#ECECFF" stroke="#8C7AE6" stroke-width="1.5" />
+  <text x="170" y="565" text-anchor="middle" font-size="14" fill="#222">FinancialHealth</text>
+  <text x="170" y="585" text-anchor="middle" font-size="11" fill="#666">(3 independent queries —</text>
+  <text x="170" y="600" text-anchor="middle" font-size="11" fill="#666">the Suspense candidate)</text>
+
+  <!-- ================= MIDDLE: API routes ================= -->
+  <text x="460" y="48" font-size="15" font-weight="700" fill="#333">API routes (randomized delay)</text>
+  <rect x="460" y="60" width="340" height="735" rx="10" fill="#FFFDE7" stroke="#C9C36A" stroke-width="1.5" stroke-dasharray="6,4" />
+
+  <rect x="480" y="85"  width="300" height="50" rx="6" fill="#FFF3D6" stroke="#D9A441" stroke-width="1.5" />
+  <text x="630" y="107" text-anchor="middle" font-size="13" fill="#222">/api/summary</text>
+  <text x="630" y="123" text-anchor="middle" font-size="11" fill="#8a6d1f">800–1500ms</text>
+
+  <rect x="480" y="175" width="300" height="50" rx="6" fill="#FFF3D6" stroke="#D9A441" stroke-width="1.5" />
+  <text x="630" y="197" text-anchor="middle" font-size="13" fill="#222">/api/revenue</text>
+  <text x="630" y="213" text-anchor="middle" font-size="11" fill="#8a6d1f">900–2000ms</text>
+
+  <rect x="480" y="265" width="300" height="50" rx="6" fill="#FFF3D6" stroke="#D9A441" stroke-width="1.5" />
+  <text x="630" y="287" text-anchor="middle" font-size="13" fill="#222">/api/expenses</text>
+  <text x="630" y="303" text-anchor="middle" font-size="11" fill="#8a6d1f">1000–2200ms</text>
+
+  <rect x="480" y="355" width="300" height="50" rx="6" fill="#FFF3D6" stroke="#D9A441" stroke-width="1.5" />
+  <text x="630" y="377" text-anchor="middle" font-size="13" fill="#222">/api/transactions</text>
+  <text x="630" y="393" text-anchor="middle" font-size="11" fill="#8a6d1f">1100–2400ms</text>
+
+  <rect x="480" y="445" width="300" height="50" rx="6" fill="#FFF3D6" stroke="#D9A441" stroke-width="1.5" />
+  <text x="630" y="467" text-anchor="middle" font-size="13" fill="#222">/api/invoices</text>
+  <text x="630" y="483" text-anchor="middle" font-size="11" fill="#8a6d1f">900–1900ms</text>
+
+  <rect x="480" y="535" width="300" height="50" rx="6" fill="#FFF3D6" stroke="#D9A441" stroke-width="1.5" />
+  <text x="630" y="557" text-anchor="middle" font-size="13" fill="#222">/api/health/credit-score</text>
+  <text x="630" y="573" text-anchor="middle" font-size="11" fill="#8a6d1f">700–1600ms</text>
+
+  <rect x="480" y="625" width="300" height="50" rx="6" fill="#FFF3D6" stroke="#D9A441" stroke-width="1.5" />
+  <text x="630" y="647" text-anchor="middle" font-size="13" fill="#222">/api/health/cash-flow</text>
+  <text x="630" y="663" text-anchor="middle" font-size="11" fill="#8a6d1f">1200–3000ms</text>
+
+  <rect x="480" y="715" width="300" height="50" rx="6" fill="#FFF3D6" stroke="#D9A441" stroke-width="1.5" />
+  <text x="630" y="737" text-anchor="middle" font-size="13" fill="#222">/api/health/debt-ratio</text>
+  <text x="630" y="753" text-anchor="middle" font-size="11" fill="#8a6d1f">1900–3900ms</text>
+
+  <!-- ================= RIGHT: detail routes (reuse the same widget component, variant="detail") ================= -->
+  <text x="900" y="157" font-size="13" font-weight="700" fill="#333">/revenue</text>
+  <rect x="900" y="165" width="260" height="70" rx="10" fill="#FFFDE7" stroke="#C9C36A" stroke-width="1.5" stroke-dasharray="6,4" />
+  <rect x="920" y="175" width="220" height="50" rx="6" fill="#ECECFF" stroke="#8C7AE6" stroke-width="1.5" />
+  <text x="1030" y="197" text-anchor="middle" font-size="13" fill="#222">RevenueChart</text>
+  <text x="1030" y="213" text-anchor="middle" font-size="10" fill="#666">variant="detail"</text>
+
+  <text x="900" y="247" font-size="13" font-weight="700" fill="#333">/expenses</text>
+  <rect x="900" y="255" width="260" height="70" rx="10" fill="#FFFDE7" stroke="#C9C36A" stroke-width="1.5" stroke-dasharray="6,4" />
+  <rect x="920" y="265" width="220" height="50" rx="6" fill="#ECECFF" stroke="#8C7AE6" stroke-width="1.5" />
+  <text x="1030" y="287" text-anchor="middle" font-size="13" fill="#222">ExpenseBreakdown</text>
+  <text x="1030" y="303" text-anchor="middle" font-size="10" fill="#666">variant="detail"</text>
+
+  <text x="900" y="337" font-size="13" font-weight="700" fill="#333">/transactions</text>
+  <rect x="900" y="345" width="260" height="70" rx="10" fill="#FFFDE7" stroke="#C9C36A" stroke-width="1.5" stroke-dasharray="6,4" />
+  <rect x="920" y="355" width="220" height="50" rx="6" fill="#ECECFF" stroke="#8C7AE6" stroke-width="1.5" />
+  <text x="1030" y="377" text-anchor="middle" font-size="13" fill="#222">RecentTransactions</text>
+  <text x="1030" y="393" text-anchor="middle" font-size="10" fill="#666">variant="detail"</text>
+
+  <text x="900" y="427" font-size="13" font-weight="700" fill="#333">/invoices</text>
+  <rect x="900" y="435" width="260" height="70" rx="10" fill="#FFFDE7" stroke="#C9C36A" stroke-width="1.5" stroke-dasharray="6,4" />
+  <rect x="920" y="445" width="220" height="50" rx="6" fill="#ECECFF" stroke="#8C7AE6" stroke-width="1.5" />
+  <text x="1030" y="467" text-anchor="middle" font-size="13" fill="#222">OutstandingInvoices</text>
+  <text x="1030" y="483" text-anchor="middle" font-size="10" fill="#666">variant="detail"</text>
+
+  <!-- ================= Lines: left components -> APIs ================= -->
+  <line x1="300" y1="110" x2="480" y2="110" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)" />
+  <text x="390" y="102" text-anchor="middle" font-size="11" fill="#555">useSummary</text>
+
+  <line x1="300" y1="200" x2="480" y2="200" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)" />
+  <text x="390" y="192" text-anchor="middle" font-size="11" fill="#555">useRevenue</text>
+
+  <line x1="300" y1="290" x2="480" y2="290" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)" />
+  <text x="390" y="282" text-anchor="middle" font-size="11" fill="#555">useExpenses</text>
+
+  <line x1="300" y1="380" x2="480" y2="380" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)" />
+  <text x="390" y="372" text-anchor="middle" font-size="11" fill="#555">useTransactions</text>
+
+  <line x1="300" y1="470" x2="480" y2="470" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)" />
+  <text x="390" y="462" text-anchor="middle" font-size="11" fill="#555">useInvoices</text>
+
+  <line x1="300" y1="560" x2="480" y2="560" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)" />
+  <text x="390" y="552" text-anchor="middle" font-size="11" fill="#555">useCreditScore</text>
+
+  <line x1="300" y1="650" x2="480" y2="650" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)" />
+  <text x="390" y="642" text-anchor="middle" font-size="11" fill="#555">useCashFlowRatio</text>
+
+  <line x1="300" y1="740" x2="480" y2="740" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)" />
+  <text x="390" y="732" text-anchor="middle" font-size="11" fill="#555">useDebtRatio</text>
+
+  <!-- ================= Lines: APIs -> right detail components ================= -->
+  <line x1="780" y1="200" x2="920" y2="200" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)" />
+  <text x="850" y="192" text-anchor="middle" font-size="11" fill="#555">useRevenue</text>
+
+  <line x1="780" y1="290" x2="920" y2="290" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)" />
+  <text x="850" y="282" text-anchor="middle" font-size="11" fill="#555">useExpenses</text>
+
+  <line x1="780" y1="380" x2="920" y2="380" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)" />
+  <text x="850" y="372" text-anchor="middle" font-size="11" fill="#555">useTransactions</text>
+
+  <line x1="780" y1="470" x2="920" y2="470" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)" />
+  <text x="850" y="462" text-anchor="middle" font-size="11" fill="#555">useInvoices</text>
+
+  <!-- ================= Shared UI (no API, no lines) ================= -->
+  <rect x="20" y="820" width="1140" height="90" rx="10" fill="#F3F3F3" stroke="#B7B7B7" stroke-width="1.5" stroke-dasharray="6,4" />
+  <text x="35" y="845" font-size="13" font-weight="700" fill="#333">Shared UI components (no route, no API — see table below)</text>
+
+  <rect x="35"  y="862" width="260" height="36" rx="6" fill="#ffffff" stroke="#9a9a9a" />
+  <text x="165" y="885" text-anchor="middle" font-size="13" fill="#222">DashboardCard</text>
+
+  <rect x="315" y="862" width="260" height="36" rx="6" fill="#ffffff" stroke="#9a9a9a" />
+  <text x="445" y="885" text-anchor="middle" font-size="13" fill="#222">DetailPageHeader</text>
+
+  <rect x="595" y="862" width="260" height="36" rx="6" fill="#ffffff" stroke="#9a9a9a" />
+  <text x="725" y="885" text-anchor="middle" font-size="13" fill="#222">Spinner</text>
+
+  <rect x="875" y="862" width="260" height="36" rx="6" fill="#ffffff" stroke="#9a9a9a" />
+  <text x="1005" y="885" text-anchor="middle" font-size="13" fill="#222">ErrorNote</text>
+</svg>
