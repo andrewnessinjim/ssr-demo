@@ -21,6 +21,11 @@ const CONCEPTS = [
     title: "04 — CSS-in-JS & Bundle Size",
     description: "A large, mostly-static article rendered as one big Client Component - and why that costs more than it needs to.",
   },
+  {
+    href: "/05-css-in-js-optimized",
+    title: "05 — CSS-in-JS & Bundle Size (Optimized)",
+    description: "The same article split so the static wrapper stays on the server while the interactive layer stays client-side.",
+  },
 ];
 
 export default function HomePage() {
