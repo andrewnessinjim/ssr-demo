@@ -16,6 +16,11 @@ const CONCEPTS = [
     title: "03 — Hit Counter (Interactive)",
     description: "Starts as a copy of concept 02 - work in progress.",
   },
+  {
+    href: "/04-css-in-js",
+    title: "04 — CSS-in-JS & Bundle Size",
+    description: "A large, mostly-static article rendered as one big Client Component - and why that costs more than it needs to.",
+  },
 ];
 
 export default function HomePage() {
