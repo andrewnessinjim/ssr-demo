@@ -26,6 +26,16 @@ const CONCEPTS = [
     title: "05 — CSS-in-JS & Bundle Size (Optimized)",
     description: "The same article split so the static wrapper stays on the server while the interactive layer stays client-side.",
   },
+  {
+    href: "/06-server-first-render",
+    title: "06 — Server-First Render",
+    description: "A counter that reads localStorage during render, and the hydration error that causes.",
+  },
+  {
+    href: "/07-server-first-render-fixed",
+    title: "07 — Server-First Render (Fixed)",
+    description: "Moves the localStorage read into an effect to avoid the hydration mismatch from concept 06.",
+  },
 ];
 
 export default function HomePage() {
