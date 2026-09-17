@@ -36,6 +36,21 @@ const CONCEPTS = [
     title: "07 — Server-First Render (Fixed)",
     description: "Moves the localStorage read into an effect to avoid the hydration mismatch from concept 06.",
   },
+  {
+    href: "/08-clock-suppress-hydration-warning",
+    title: "08 — Live Clock",
+    description: "A clock whose server- and client-rendered timestamps always differ, and suppressHydrationWarning to silence the expected mismatch.",
+  },
+  {
+    href: "/09-homepage-blocking",
+    title: "09 — Blocking Homepage",
+    description: "An async Server Component that awaits a slow product query before rendering anything at all.",
+  },
+  {
+    href: "/10-homepage-streaming/products",
+    title: "10 — Streaming Homepage (Nested Route + loading.js)",
+    description: "The same slow homepage, but the products live in a nested route so its loading.js streams the layout in immediately.",
+  },
 ];
 
 export default function HomePage() {

@@ -24,7 +24,7 @@ export default function ServerFirstRenderFixed() {
         className="rounded-xl bg-blue-600 px-12 py-8 text-4xl font-bold text-white shadow-lg hover:bg-blue-500"
         onClick={() => setCount(count + 1)}
       >
-        {count}
+        {count === null ? "...." : count}
       </button>
     </main>
   );

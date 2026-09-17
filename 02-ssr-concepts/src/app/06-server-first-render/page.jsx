@@ -4,9 +4,9 @@ import React from "react";
 
 export default function ServerFirstRender() {
   const [counter, setCounter] = React.useState(() => {
-    const savedValue = window.localStorage.getItem("saved-count");
+    // const savedValue = window.localStorage.getItem("saved-count");
 
-    return savedValue ? Number(savedValue) : 0;
+    // return savedValue ? Number(savedValue) : 0;
   });
 
   return (
